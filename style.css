@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 
 body{
-	background-image:url("https://cdn.pixabay.com/photo/2022/06/23/17/13/ball-7280265_1280.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-image:url("https://preview.redd.it/hvrem1knuzs11.jpg?auto=webp&s=43501a01bd9a4a975a6609ee4babfdd448ff53fb");
+	background-repeat: round;
+	background-size: 100% 100% 25%;
 	text-align: left;
 }
 
 button{
-	border: 1.5px solid black;
-	background: linear-gradient( rgb(172, 152, 41), rgb(204, 250, 2), rgb(129, 127, 14));
-	border-radius: 20%;
+	border: 1.75px solid black;
+	background: linear-gradient( rgb(0, 255, 157), rgb(2, 138, 250), rgb(0, 255, 191));
+	border-radius: 37%;
 	cursor: pointer;
 	text-align: center;
 	color: rgb(0, 0, 255);
@@ -20,12 +20,17 @@ button{
 b, h4{
     font-family: 'Imbue', sans-serif;
     font-size: 15px;
+	color: white;
 }
 
 @keyframes animationVio{
 	10% {
 		color: red;
 		font-weight: bold;
+	}
+	70%{
+		color: rgb(0, 255, 157);
+		font-weight: italic;
 	}
 }
 
@@ -34,30 +39,32 @@ h2{
 }
 
 b:hover{
-	color:rgb(238, 255, 0);
+	color: rgb(0, 255, 157);
 }
 summary:hover{
-	color: rgb(238, 255, 0);
+	color: rgb(0, 255, 157);
 }
 summary{
 	color: white;
 }
-h4{
-	color: white;
+h4:hover{
+	color: rgb(0, 217, 157);
+	cursor: progress;
 }
+
 strong:hover{
 	color: rgba(0, 17, 255, 0.651);
 	font-weight: bold;
 }
 @keyframes animationViorel{
 	30%{
-		color: rgb(255, 0, 0);
+		color: rgb(0, 255, 157);
 	}
 	50%{
 		color: rgb(0, 255, 0);
 	}
 	100%{
-		color:rgb(255, 255, 0);
+		color:rgb(0, 132, 255);
 	}
 }
 
